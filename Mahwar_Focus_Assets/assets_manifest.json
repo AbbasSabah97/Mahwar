@@ -1,0 +1,756 @@
+{
+  "name": "Mahwar Focus - asset manifest",
+  "version": 1,
+  "design_canvas": {
+    "width": 1215,
+    "height": 1295,
+    "unit": "design unit. Every image file is exported at 2x: 1 unit = 2 px. Draw image at (x*s+ox, y*s+oy) with size (w*s, h*s)."
+  },
+  "state_images": {
+    "checkbox": {
+      "on": "assets/checkbox_on.png",
+      "off": "assets/checkbox_off.png"
+    },
+    "add_button": {
+      "normal": "assets/btn_add_bg.png",
+      "pressed": "assets/btn_add_bg_pressed.png"
+    }
+  },
+  "layers": [
+    {
+      "key": "desk",
+      "file": "assets/bg_desk.jpg",
+      "x": 0,
+      "y": 0,
+      "w": 1215.0,
+      "h": 1295.0,
+      "z": 0,
+      "note": "wood desk background (opaque, full canvas)"
+    },
+    {
+      "key": "cover",
+      "file": "assets/cover_leather.png",
+      "x": 0,
+      "y": 0,
+      "w": 1215.0,
+      "h": 1295.0,
+      "z": 1,
+      "note": "leather binder: cover + left band + stitched inner mat, with shadows (full canvas)"
+    },
+    {
+      "key": "topbar",
+      "file": "assets/topbar_panel.png",
+      "x": 161,
+      "y": 16,
+      "w": 965.0,
+      "h": 150.0,
+      "z": 2,
+      "note": "dark leather header panel; visible panel rect = (175,30)-(1112,152)"
+    },
+    {
+      "key": "page",
+      "file": "assets/page_paper.png",
+      "x": 230,
+      "y": 140,
+      "w": 875.0,
+      "h": 1025.0,
+      "z": 3,
+      "note": "paper page + stacked page edges + 9 punched holes; main page rect = (250,160)-(1062,1122)"
+    },
+    {
+      "key": "tab_tasks",
+      "file": "assets/tab_tasks.png",
+      "x": 26,
+      "y": 176,
+      "w": 183.0,
+      "h": 213.0,
+      "z": 4,
+      "note": "blue tab; visible rect = (40,190)-(195,375)"
+    },
+    {
+      "key": "tab_goals",
+      "file": "assets/tab_goals.png",
+      "x": 26,
+      "y": 374,
+      "w": 185.0,
+      "h": 200.0,
+      "z": 4,
+      "note": "green tab; visible rect = (40,388)-(197,560)"
+    },
+    {
+      "key": "tab_sessions",
+      "file": "assets/tab_sessions.png",
+      "x": 26,
+      "y": 561,
+      "w": 186.0,
+      "h": 203.0,
+      "z": 4,
+      "note": "purple tab; visible rect = (40,575)-(198,750)"
+    },
+    {
+      "key": "tab_reviews",
+      "file": "assets/tab_reviews.png",
+      "x": 26,
+      "y": 751,
+      "w": 188.0,
+      "h": 178.0,
+      "z": 4,
+      "note": "orange tab; visible rect = (40,765)-(200,915)"
+    },
+    {
+      "key": "ring_0",
+      "file": "assets/ring.png",
+      "x": 202,
+      "y": 223,
+      "w": 132.0,
+      "h": 60.0,
+      "z": 5,
+      "note": "metal binder ring #1, centre y=253 (same image repeated 9x)"
+    },
+    {
+      "key": "ring_1",
+      "file": "assets/ring.png",
+      "x": 202,
+      "y": 320,
+      "w": 132.0,
+      "h": 60.0,
+      "z": 5,
+      "note": "metal binder ring #2, centre y=350 (same image repeated 9x)"
+    },
+    {
+      "key": "ring_2",
+      "file": "assets/ring.png",
+      "x": 202,
+      "y": 417,
+      "w": 132.0,
+      "h": 60.0,
+      "z": 5,
+      "note": "metal binder ring #3, centre y=447 (same image repeated 9x)"
+    },
+    {
+      "key": "ring_3",
+      "file": "assets/ring.png",
+      "x": 202,
+      "y": 514,
+      "w": 132.0,
+      "h": 60.0,
+      "z": 5,
+      "note": "metal binder ring #4, centre y=544 (same image repeated 9x)"
+    },
+    {
+      "key": "ring_4",
+      "file": "assets/ring.png",
+      "x": 202,
+      "y": 611,
+      "w": 132.0,
+      "h": 60.0,
+      "z": 5,
+      "note": "metal binder ring #5, centre y=641 (same image repeated 9x)"
+    },
+    {
+      "key": "ring_5",
+      "file": "assets/ring.png",
+      "x": 202,
+      "y": 708,
+      "w": 132.0,
+      "h": 60.0,
+      "z": 5,
+      "note": "metal binder ring #6, centre y=738 (same image repeated 9x)"
+    },
+    {
+      "key": "ring_6",
+      "file": "assets/ring.png",
+      "x": 202,
+      "y": 805,
+      "w": 132.0,
+      "h": 60.0,
+      "z": 5,
+      "note": "metal binder ring #7, centre y=835 (same image repeated 9x)"
+    },
+    {
+      "key": "ring_7",
+      "file": "assets/ring.png",
+      "x": 202,
+      "y": 902,
+      "w": 132.0,
+      "h": 60.0,
+      "z": 5,
+      "note": "metal binder ring #8, centre y=932 (same image repeated 9x)"
+    },
+    {
+      "key": "ring_8",
+      "file": "assets/ring.png",
+      "x": 202,
+      "y": 999,
+      "w": 132.0,
+      "h": 60.0,
+      "z": 5,
+      "note": "metal binder ring #9, centre y=1029 (same image repeated 9x)"
+    },
+    {
+      "key": "bottom_nav",
+      "file": "assets/bottom_nav_bg.png",
+      "x": 236,
+      "y": 1165,
+      "w": 844.0,
+      "h": 120.0,
+      "z": 6,
+      "note": "cream bottom-nav strip with 3 dividers; visible rect = (248,1177)-(1068,1273)"
+    },
+    {
+      "key": "pen",
+      "file": "assets/pen.png",
+      "x": 1110,
+      "y": 114,
+      "w": 98.0,
+      "h": 918.0,
+      "z": 7,
+      "note": "fountain pen (vertical), centre x=1159"
+    },
+    {
+      "key": "pen_loop",
+      "file": "assets/pen_loop.png",
+      "x": 1076,
+      "y": 406,
+      "w": 143.0,
+      "h": 228.0,
+      "z": 8,
+      "note": "leather loop strap over the pen; visible rect = (1090,420)-(1205,620)"
+    },
+    {
+      "key": "btn_add",
+      "file": "assets/btn_add_bg.png",
+      "x": 487,
+      "y": 779,
+      "w": 356.0,
+      "h": 116.0,
+      "z": 9,
+      "note": "blue add-task button background; visible rect = (503,795)-(827,879); label+plus icon drawn by app"
+    },
+    {
+      "key": "checkbox_0",
+      "file": "assets/checkbox_on.png",
+      "x": 383,
+      "y": 384,
+      "w": 56.0,
+      "h": 56.0,
+      "z": 9,
+      "note": "task checkbox row 1 (state images: checkbox_on.png / checkbox_off.png), visible rect 46x46 at x=388"
+    },
+    {
+      "key": "checkbox_1",
+      "file": "assets/checkbox_on.png",
+      "x": 383,
+      "y": 462,
+      "w": 56.0,
+      "h": 56.0,
+      "z": 9,
+      "note": "task checkbox row 2 (state images: checkbox_on.png / checkbox_off.png), visible rect 46x46 at x=388"
+    },
+    {
+      "key": "checkbox_2",
+      "file": "assets/checkbox_off.png",
+      "x": 383,
+      "y": 542,
+      "w": 56.0,
+      "h": 56.0,
+      "z": 9,
+      "note": "task checkbox row 3 (state images: checkbox_on.png / checkbox_off.png), visible rect 46x46 at x=388"
+    },
+    {
+      "key": "checkbox_3",
+      "file": "assets/checkbox_off.png",
+      "x": 383,
+      "y": 621,
+      "w": 56.0,
+      "h": 56.0,
+      "z": 9,
+      "note": "task checkbox row 4 (state images: checkbox_on.png / checkbox_off.png), visible rect 46x46 at x=388"
+    },
+    {
+      "key": "checkbox_4",
+      "file": "assets/checkbox_off.png",
+      "x": 383,
+      "y": 698,
+      "w": 56.0,
+      "h": 56.0,
+      "z": 9,
+      "note": "task checkbox row 5 (state images: checkbox_on.png / checkbox_off.png), visible rect 46x46 at x=388"
+    },
+    {
+      "key": "curl",
+      "file": "assets/page_curl.png",
+      "x": 740,
+      "y": 560,
+      "w": 360.0,
+      "h": 590.0,
+      "z": 12,
+      "note": "page-corner curl overlay; hides whatever is under it (the quote box is cut by it); mouse-transparent"
+    },
+    {
+      "key": "leaf",
+      "file": "assets/leaf.png",
+      "x": 795,
+      "y": 1015,
+      "w": 80.0,
+      "h": 80.0,
+      "z": 13,
+      "note": "decorative leaf on the curl"
+    },
+    {
+      "key": "logo",
+      "file": "assets/logo_target.png",
+      "x": 250,
+      "y": 53,
+      "w": 80.0,
+      "h": 80.0,
+      "z": 14,
+      "note": "target+arrow logo in header"
+    }
+  ],
+  "ui": {
+    "note": "All coordinates are design units on the 1215x1295 canvas. anchor: l=left, r=right, m=middle (horizontal) + m=middle (vertical). Text direction RTL for Arabic strings.",
+    "palette": {
+      "text_dark": "#1a1612",
+      "text_mid": "#3a342e",
+      "done_text": "#58504a",
+      "progress_track": "#d4cfc6",
+      "progress_fill": "#14b62e",
+      "progress_text": "#1c8a34",
+      "nav_active": "#1f5fb0",
+      "nav_inactive": "#3a342e",
+      "separator": "#cec4b4",
+      "quote_border": "#b6a48a",
+      "quote_text": "#70665c",
+      "quote_mark": "#967c58",
+      "star_gold": "#f0b028",
+      "white": "#ffffff"
+    },
+    "fonts": {
+      "ui": "fonts/Tajawal-*.ttf",
+      "quote": "fonts/Amiri-Italic.ttf",
+      "quote_mark": "fonts/Amiri-Bold.ttf"
+    },
+    "header": {
+      "title": {
+        "text": "Mahwar Focus",
+        "x": 348,
+        "y": 76,
+        "font": "Tajawal-ExtraBold",
+        "size": 40,
+        "color": "#ffffff",
+        "anchor": "lm",
+        "rtl": false
+      },
+      "subtitle": {
+        "text": "ركز .. خطط .. حقق . أهدافك",
+        "x": 350,
+        "y": 115,
+        "font": "Tajawal-Medium",
+        "size": 21,
+        "color": "#ebebeb",
+        "anchor": "lm"
+      },
+      "buttons": [
+        {
+          "id": "sync",
+          "icon": "icons/hdr_sync.svg",
+          "icon_center": [
+            810,
+            73
+          ],
+          "icon_size": 44,
+          "label": {
+            "text": "مزامنة",
+            "x": 810,
+            "y": 111,
+            "font": "Tajawal-Medium",
+            "size": 18,
+            "color": "#f0f0f0",
+            "anchor": "mm"
+          }
+        },
+        {
+          "id": "stats",
+          "icon": "icons/hdr_stats.svg",
+          "icon_center": [
+            940,
+            73
+          ],
+          "icon_size": 44,
+          "label": {
+            "text": "الإحصائيات",
+            "x": 940,
+            "y": 111,
+            "font": "Tajawal-Medium",
+            "size": 18,
+            "color": "#f0f0f0",
+            "anchor": "mm"
+          }
+        },
+        {
+          "id": "settings",
+          "icon": "icons/hdr_settings.svg",
+          "icon_center": [
+            1055,
+            73
+          ],
+          "icon_size": 44,
+          "label": {
+            "text": "الإعدادات",
+            "x": 1055,
+            "y": 111,
+            "font": "Tajawal-Medium",
+            "size": 18,
+            "color": "#f0f0f0",
+            "anchor": "mm"
+          }
+        }
+      ]
+    },
+    "side_tabs": [
+      {
+        "id": "tasks",
+        "image": "tab_tasks",
+        "icon": "icons/tab_tasks.svg",
+        "icon_center": [
+          118,
+          260
+        ],
+        "icon_size": 46,
+        "labels": [
+          {
+            "text": "المهام",
+            "x": 118,
+            "y": 305,
+            "font": "Tajawal-Medium",
+            "size": 22,
+            "color": "#fff",
+            "anchor": "mm"
+          }
+        ]
+      },
+      {
+        "id": "goals",
+        "image": "tab_goals",
+        "icon": "icons/tab_goals.svg",
+        "icon_center": [
+          118,
+          460
+        ],
+        "icon_size": 46,
+        "labels": [
+          {
+            "text": "الأهداف",
+            "x": 118,
+            "y": 509,
+            "font": "Tajawal-Medium",
+            "size": 22,
+            "color": "#fff",
+            "anchor": "mm"
+          }
+        ]
+      },
+      {
+        "id": "sessions",
+        "image": "tab_sessions",
+        "icon": "icons/tab_sessions.svg",
+        "icon_center": [
+          118,
+          627
+        ],
+        "icon_size": 46,
+        "labels": [
+          {
+            "text": "جلسات",
+            "x": 118,
+            "y": 672,
+            "font": "Tajawal-Medium",
+            "size": 22,
+            "color": "#fff",
+            "anchor": "mm"
+          },
+          {
+            "text": "التركيز",
+            "x": 118,
+            "y": 710,
+            "font": "Tajawal-Medium",
+            "size": 22,
+            "color": "#fff",
+            "anchor": "mm"
+          }
+        ]
+      },
+      {
+        "id": "reviews",
+        "image": "tab_reviews",
+        "icon": "icons/tab_reviews.svg",
+        "icon_center": [
+          120,
+          820
+        ],
+        "icon_size": 46,
+        "labels": [
+          {
+            "text": "المراجعات",
+            "x": 120,
+            "y": 867,
+            "font": "Tajawal-Medium",
+            "size": 22,
+            "color": "#fff",
+            "anchor": "mm"
+          }
+        ]
+      }
+    ],
+    "page": {
+      "date_icon": {
+        "icon": "icons/date_calendar.svg",
+        "center": [
+          385,
+          229
+        ],
+        "size": 40
+      },
+      "date_text": {
+        "text": "السبت، 26 أبريل 2025",
+        "x": 418,
+        "y": 228,
+        "font": "Tajawal-Medium",
+        "size": 25,
+        "color": "#3a342e",
+        "anchor": "lm",
+        "dynamic": "today, Arabic weekday + day + month + year"
+      },
+      "title_icon": {
+        "icon": "icons/title_check.svg",
+        "center": [
+          983,
+          231
+        ],
+        "size": 42
+      },
+      "title": {
+        "text": "مهامي لليوم",
+        "x": 951,
+        "y": 232,
+        "font": "Tajawal-ExtraBold",
+        "size": 33,
+        "color": "#1e1a16",
+        "anchor": "rm"
+      },
+      "progress_track": {
+        "rect": [
+          370,
+          284,
+          993,
+          302
+        ],
+        "radius": 9
+      },
+      "progress_fill": {
+        "rect_at_2_of_5": [
+          370,
+          284,
+          691,
+          302
+        ],
+        "radius": 9,
+        "rule": "width = (993-370) * done/total"
+      },
+      "progress_text": {
+        "text": "2 من 5 مهام مكتملة",
+        "x": 994,
+        "y": 325,
+        "font": "Tajawal-Medium",
+        "size": 20,
+        "color": "#1c8a34",
+        "anchor": "rm"
+      },
+      "separators": {
+        "y": [
+          373,
+          452,
+          529,
+          609,
+          688,
+          765
+        ],
+        "x0": 372,
+        "x1": 1002,
+        "width": 1.4
+      },
+      "rows": {
+        "center_y": [
+          412,
+          490,
+          570,
+          649,
+          726
+        ],
+        "checkbox_image_top_left_x": 383,
+        "checkbox_visible_x": 388,
+        "checkbox_visible_size": 46,
+        "text": {
+          "x": 465,
+          "anchor": "lm",
+          "font": "Tajawal-Medium",
+          "size": 29,
+          "color": "#1a1612",
+          "done_color": "#58504a",
+          "done_style": "strikethrough"
+        },
+        "star": {
+          "center_x": 968,
+          "size": 36,
+          "icon_off": "icons/star_off.svg",
+          "icon_on": "icons/star_on.svg"
+        }
+      },
+      "add_button": {
+        "image": "btn_add",
+        "pressed_image": "assets/btn_add_bg_pressed.png",
+        "visible_rect": [
+          503,
+          795,
+          827,
+          879
+        ],
+        "label": {
+          "text": "إضافة مهمة جديدة",
+          "x": 645,
+          "y": 835,
+          "font": "Tajawal-Bold",
+          "size": 24,
+          "color": "#ffffff",
+          "anchor": "mm"
+        },
+        "plus": {
+          "icon": "icons/plus_white.svg",
+          "center": [
+            778,
+            834
+          ],
+          "size": 38
+        }
+      },
+      "quote_box": {
+        "rect": [
+          362,
+          955,
+          1000,
+          1095
+        ],
+        "radius": 24,
+        "border_width": 1.6,
+        "border_color": "#b6a48a",
+        "gap_for_mark": [
+          600,
+          692
+        ],
+        "mark": {
+          "text": "“",
+          "x": 646,
+          "y": 958,
+          "font": "Amiri-Bold",
+          "size": 58,
+          "color": "#967c58",
+          "anchor": "mm",
+          "rtl": false
+        },
+        "text": {
+          "text": "التركيز هو مفتاح الإنجاز",
+          "x": 610,
+          "y": 1021,
+          "font": "Amiri-Italic",
+          "size": 33,
+          "color": "#70665c",
+          "anchor": "mm"
+        },
+        "under_layer": "curl"
+      }
+    },
+    "bottom_nav": [
+      {
+        "id": "home",
+        "icon": "icons/nav_home.svg",
+        "icon_active": "icons/nav_home_active.svg",
+        "icon_center": [
+          350,
+          1212
+        ],
+        "icon_size": 44,
+        "label": {
+          "text": "الرئيسية",
+          "x": 350,
+          "y": 1245,
+          "font": "Tajawal-Medium",
+          "size": 19,
+          "color": "#3a342e",
+          "anchor": "mm",
+          "active_color": "#1f5fb0"
+        }
+      },
+      {
+        "id": "calendar",
+        "icon": "icons/nav_calendar.svg",
+        "icon_active": "icons/nav_calendar_active.svg",
+        "icon_center": [
+          556,
+          1212
+        ],
+        "icon_size": 44,
+        "label": {
+          "text": "التقويم",
+          "x": 556,
+          "y": 1245,
+          "font": "Tajawal-Medium",
+          "size": 19,
+          "color": "#3a342e",
+          "anchor": "mm",
+          "active_color": "#1f5fb0"
+        }
+      },
+      {
+        "id": "reports",
+        "icon": "icons/nav_reports.svg",
+        "icon_active": "icons/nav_reports_active.svg",
+        "icon_center": [
+          758,
+          1212
+        ],
+        "icon_size": 44,
+        "label": {
+          "text": "التقارير",
+          "x": 758,
+          "y": 1245,
+          "font": "Tajawal-Medium",
+          "size": 19,
+          "color": "#3a342e",
+          "anchor": "mm",
+          "active_color": "#1f5fb0"
+        }
+      },
+      {
+        "id": "achievements",
+        "icon": "icons/nav_achievements.svg",
+        "icon_active": "icons/nav_achievements_active.svg",
+        "icon_center": [
+          962,
+          1212
+        ],
+        "icon_size": 44,
+        "label": {
+          "text": "الإنجازات",
+          "x": 962,
+          "y": 1245,
+          "font": "Tajawal-Medium",
+          "size": 19,
+          "color": "#3a342e",
+          "anchor": "mm",
+          "active_color": "#1f5fb0"
+        }
+      }
+    ]
+  }
+}

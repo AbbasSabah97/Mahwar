@@ -1,0 +1,3 @@
+Fonts: Tajawal and Amiri - SIL Open Font License 1.1 (free for commercial use, embedding allowed).
+Icons: Phosphor Icons (https://phosphoricons.com) - MIT License.
+Images in assets/: generated procedurally for this project.
